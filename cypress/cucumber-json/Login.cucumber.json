@@ -1,0 +1,100 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Fluxo de LoginPage",
+    "line": 1,
+    "id": "fluxo-de-loginpage",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "fluxo-de-loginpage;login-com-sucesso",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login com sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que eu acesse a pagina Parodify",
+            "result": {
+              "status": "passed",
+              "duration": 2355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "efetuar login alicemiguel.souza@hotmail.com e satell5566",
+            "result": {
+              "status": "passed",
+              "duration": 4107000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-loginpage;login-sem-sucesso",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Login sem sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que eu acesse a pagina Parodify",
+            "result": {
+              "status": "passed",
+              "duration": 1128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "efetuar cadastro sem sucesso alicemiguel.souza@hotmail.com e Satell5566",
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-loginpage;login-sem-sucesso",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Login sem sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que eu acesse a pagina Parodify",
+            "result": {
+              "status": "passed",
+              "duration": 899000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "efetuar cadastro sem sucesso licemiguel.souza@hotmail.com e satell5566",
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

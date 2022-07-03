@@ -1,0 +1,97 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Fluxo de CadastroPage",
+    "line": 1,
+    "id": "fluxo-de-cadastropage",
+    "tags": [],
+    "uri": "Youtuube.feature",
+    "elements": [
+      {
+        "id": "fluxo-de-cadastropage;cadastro-com-sucesso",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "cadastro com sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que eu acesse a pagina Youtube",
+            "result": {
+              "status": "undefined",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "efetuar Cadastro alicemiguel.souza@hotmail.com e satell5566",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-cadastropage;login-sem-sucesso",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Login sem sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que eu acesse a pagina Youtube",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "efetuar cadastro sem sucesso alicemiguel.souza@hotmail.com e Satell5566",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-cadastropage;login-sem-sucesso",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Login sem sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que eu acesse a pagina Youtube",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "efetuar cadastro sem sucesso licemiguel.souza@hotmail.com e satell5566",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
